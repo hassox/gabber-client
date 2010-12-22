@@ -9,11 +9,8 @@ if( typeof GabberEnv === 'undefined' ){
 	var cachedUsername,
 			cachedEmail;
 
-	// GabberEnv can include the following:
-	//   'host'
-	//   'includeCss'
 	if ( !GabberEnv.host ){
-		GabberEnv.host = "chat.gabbertalk.com"; // used in development. useless otherwise
+		GabberEnv.host = "chat.gabbertalk.com"; // it is only useful to set host in development of the gabbertalk server. Never do this in general
 	}
 
 	GabberTalk.isLoaded      = false; // Tracks if GabberTalk and dependent scripts are all loaded
