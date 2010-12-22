@@ -10,6 +10,9 @@ First head over to [GabberTalk](http://gabbertalk.com) and sign up for an accoun
 
 The gabber-client.js file provides a base object for communicating with the GabberTalk service.  It's setup to call a <code>gabberTalkBoot()</code> function.  Declare this function in your page, and then require the gabber-client.js file.
 
+The gabbertalk-client requires the JSON constant to be present.  Use json2.js if it's not natively avaialble.
+
+The ko client requires the [knockout library](http://knockoutjs.com/)
 ### Setting up on the page
 
 This simple setup will get you connected
